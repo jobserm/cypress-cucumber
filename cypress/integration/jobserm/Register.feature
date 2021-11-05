@@ -5,7 +5,12 @@ Feature: Feature name
     Scenario: Register
         Given I open home page
         Then I click register button
-        Then I input email "testemail@gm.com" username "testemail" firstname "testname" lastname "testlastname" phone "0900001234" password "abcdefg12345!"
+        Then I input email "testemail@gm.com" 
+        Then I input username "testemail" 
+        Then I input firstname "testname" 
+        Then I input lastname "testlastname" 
+        Then I input phone "0900001234" 
+        Then I input password "abcdefg12345!"
         Then I click complete register button
     
     Scenario: Login
